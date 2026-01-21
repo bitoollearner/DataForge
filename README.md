@@ -123,13 +123,9 @@ DataForge generates **synthetic data**, which comes with inherent limitations:
 - Bias may exist based on design assumptions
 
 ⚠️ **Important:**  
-Synthetic data produced by DataForge must undergo proper validation before use in production decision-making or machine learning model evaluation.
+Synthetic data produced by DataForge must undergo proper validation before being used in production decision-making or for evaluating machine learning models.
 
 DataForge is intended for **learning, testing, and demonstration purposes**.
-
-
----
-
 
 ---
 
@@ -164,7 +160,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> Created with ❤️ by [Ravender Singh Rana](https://github.com/rrana157/) / [BI Learner](https://github.com/rrana157/)
-
-
-
+> Created with ❤️ by [Ravender Singh Rana](https://github.com/rrana157/) / [BI Learner](https://github.com/bitoollearner/)
