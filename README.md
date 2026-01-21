@@ -82,27 +82,6 @@ pip install DataForge
 
 Requires Python 3.7+ or above
 
----
-
-## Installation
-
-Install the latest stable version from PyPI:
-
-```bash
-pip install dataforge
-
-from dataforge import generate_dataset
-
-# Generate 1,000 sales records
-df = generate_dataset(
-    dataset_type="sales",
-    records=1000
-)
-
-print(df.head())
-
-```
-
 ## ⚙️ How It Works
 
 DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
