@@ -1,4 +1,4 @@
-# DataForge
+# 🐸 DataForge
 
 DataForge is a Python library for generating **structured, realistic synthetic datasets** from predefined templates.  
 It is designed for analytics learning, data engineering workflows, testing, and demonstrations where access to real-world data is limited or unavailable.
