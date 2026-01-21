@@ -84,26 +84,6 @@ Requires Python 3.7+ or above
 
 ---
 
-## ⚙️ How It Works
-
-DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
-
-```python
-from DataForge import DataForge
-
-forge = DataForge()
-
-# List all available dataset types
-print(forge.available_datasets())
-
-# Generate 1,000 fake ecommerce records
-df = forge.generate('ecommerce', 1000)
-print(df.head())
-```
-
-You’ll get a clean `pandas.DataFrame` ready for export or visualization.
-
-
 ## Installation
 
 Install the latest stable version from PyPI:
@@ -122,6 +102,25 @@ df = generate_dataset(
 print(df.head())
 
 ```
+
+## ⚙️ How It Works
+
+DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
+
+```python
+from DataForge import DataForge
+
+forge = DataForge()
+
+# List all available dataset types
+print(forge.available_datasets())
+
+# Generate 1,000 fake ecommerce records
+df = forge.generate('ecommerce', 1000)
+print(df.head())
+```
+
+You’ll get a clean `pandas.DataFrame` ready for export or visualization.
 
 ## Use Cases
 
