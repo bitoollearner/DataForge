@@ -159,5 +159,5 @@ This project is licensed under the [MIT License](LICENSE).
 - 📘 Docs: Coming soon
 
 ---
-
+## 🧑‍💻 Author
 > Created with ❤️ by [Ravender Singh Rana](https://github.com/rrana157/) / [BI Learner](https://github.com/bitoollearner/)
