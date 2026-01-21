@@ -47,20 +47,11 @@ It provides predefined dataset templates that resemble real-world schemas and ca
 
 DataForge currently supports **five dataset templates**:
 
-1. **Sales & Orders**  
-   Transactional order-level data, including dates, values, and statuses.
-
-2. **Customers**  
-   Customer profiles with identifiers and demographic-style attributes.
-
-3. **Products**  
-   Product catalogs including categories and pricing fields.
-
-4. **Events & Timestamps**  
-   Event-based records are designed for time-series analysis.
-
-5. **Geographic Data**  
-   Country, region, and city-level reference data.
+### **Question Breakdown by Difficulty:**
+| Difficulty | Count |Jack |
+| Medium     | 137   ||
+| Hard       | 61    ||
+| **Total**  | 310   ||
 
 Additional datasets will be introduced in future releases.
 
