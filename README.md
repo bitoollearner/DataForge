@@ -1,56 +1,64 @@
 # 🐸 DataForge
 
-**DataForge** is a flexible synthetic data generation library for Python, built to support realistic, industry-specific datasets. Whether you're developing analytics dashboards, validating data pipelines, or training ML models, DataForge provides a quick and safe way to get high-quality sample data.
+![PyPI](https://img.shields.io/pypi/v/DataForge)
+![Python](https://img.shields.io/pypi/pyversions/DataForge)
+![License](https://img.shields.io/github/license/bitoollearner/DataForge)
+![Downloads](https://img.shields.io/pypi/dm/DataForge)
+![Status](https://img.shields.io/badge/status-active-success)
+
+**DataForge** is a flexible synthetic data generation library for Python, designed to produce realistic, industry-specific datasets. Whether you’re building analytics dashboards, validating data pipelines, or training machine learning models, DataForge offers a fast, safe, and structured way to generate high-quality sample data.
 
 ---
 
 ## 🚀 Why DataForge?
 
-Generating clean, structured, and realistic sample data is often time-consuming. DataForge helps you:
+Creating clean, structured, and realistic sample data is often time-consuming.  
+DataForge helps you:
 
-✅ Prototype faster  
-✅ Avoid messy real data  
-✅ Simulate business scenarios  
-✅ Teach analytics & machine learning  
-✅ Benchmark tools and systems
+- ✅ Prototype faster  
+- ✅ Avoid sensitive real-world data  
+- ✅ Simulate realistic business scenarios  
+- ✅ Teach analytics & machine learning concepts  
+- ✅ Benchmark tools, pipelines, and systems  
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
+
 - [Overview](#overview)
 - [Key Features](#key-features)
-- [Available Datasets](#available-datasets)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Use Cases](#use-cases)
-- [Design Philosophy](#design-philosophy)
+- [Available Datasets](#-available-datasets)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [How It Works](#️-how-it-works)
+- [Exporting Data](#-exporting-data)
 - [Limitations & Data Bias](#limitations--data-bias)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
-- [Contact](#contact)
+- [Use Cases](#-use-cases)
+- [Future Plans](#-future-plans)
+- [License](#-license)
+- [Links](#-links)
+- [Author](#-author)
 
 ---
 
 ## Overview
 
-Access to realistic data is one of the biggest barriers in the practice of analytics and data engineering.  
+Access to realistic data remains one of the biggest challenges in analytics and data engineering.  
 Most data generators produce random values that lack structure, relationships, or analytical relevance.
 
 **DataForge focuses on generating usable data — not just fake data.**
 
-It provides predefined dataset templates that resemble real-world schemas and can scale from small samples to large datasets.
+It provides predefined dataset templates that resemble real-world schemas and scale seamlessly from small samples to large datasets.
 
 ---
 
 ## Key Features
 
-- Predefined, analytics-ready dataset templates
-- Generate any number of records on demand
-- Consistent schemas and logical relationships
-- Python-native API (Pandas-friendly)
-- Suitable for learning, testing, and demos
+- Predefined, analytics-ready dataset templates  
+- Generate any number of records on demand  
+- Consistent schemas with logical relationships  
+- Python-native API (Pandas-friendly)  
+- Ideal for learning, testing, and demonstrations  
 
 ---
 
@@ -66,11 +74,9 @@ DataForge provides industry-specific synthetic datasets with clean structure and
 |4| **Courier Logistics** | Shipment journey data for last-mile routing, SLA tracking & delivery analytics. | `Origin`, `Destination`, `Pouch No`, `Date`, `Sender's Name`, `Sender Phone`, `Sender Address`, `Sender City`, `Sender State`, `Sender Pincode`, `Sender GSTIN`, `Total Pieces`, `Actual Wt`, `Volumetric Wt`, `Chargeable Wt`, `Paperwork`, `Sender Signature`, `Sender Date`, `Recipient Name`, `Recipient Phone`, `Recipient Address`, `Recipient City`, `Receiver State`, `Receiver Pincode`, `Description`, `Value Added Services`, `Consignment No`, `Expiry Date`, `Booking Code`, `Recipient GSTIN`, `Receiver Name`, `Relationship`, `Company Stamp`, `Receiver Signature`, `Receive Date`, `Tariff`, `VAS Charges`, `Total Amount`, `Mode`, `Risk Surcharge`, `Mode of Payment`, `Nature of Consignment`|
 |5| **Healthcare Visits** | Clinical visit events for patient journey analytics & hospital operations simulation. | `patient_id`, `visit_id`, `doctor_id`, `visit_date`, `department`, `diagnosis`, `treatment`, `billing_amount`, `insurance_provider`, `visit_status` |
 
+> ℹ️ All datasets are returned as `pandas.DataFrame` objects with appropriate data types and referential consistency wherever applicable.
 
-> ℹ️ All datasets are returned as `pandas.DataFrame` objects with valid data types and referential consistency wherever applicable.
-
-
-> 💡 More datasets will be added. Our goal: **100+ industry-specific datasets**.
+> 💡 More datasets are planned. Our goal: **100+ industry-specific datasets**.
 
 ---
 
@@ -81,10 +87,6 @@ pip install DataForge
 ```
 
 Requires Python 3.7+ or above
-
-## ⚙️ How It Works
-
-DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
 
 ```python
 from DataForge import DataForge
@@ -98,6 +100,10 @@ print(forge.available_datasets())
 df = forge.generate('ecommerce', 1000)
 print(df.head())
 ```
+
+## ⚙️ How It Works
+
+DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
 
 You’ll get a clean `pandas.DataFrame` ready for export or visualization.
 
@@ -113,7 +119,6 @@ df.to_json('sample.json', orient='records')
 
 ---
 
-
 ## Limitations & Data Bias
 
 DataForge generates **synthetic data**, which comes with inherent limitations:
@@ -123,9 +128,9 @@ DataForge generates **synthetic data**, which comes with inherent limitations:
 - Bias may exist based on design assumptions
 
 ⚠️ **Important:**  
-Synthetic data produced by DataForge must undergo proper validation before being used in production decision-making or for evaluating machine learning models.
+Synthetic data generated by DataForge should be validated before use in production decision-making or machine learning evaluation.
 
-DataForge is intended for **learning, testing, and demonstration purposes**.
+DataForge is intended for **learning, testing, and demonstration purposes only**.
 
 ---
 
@@ -147,7 +152,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🧠 Future Plans
 
-- [x] 5+ starter datasets
+- [x] 5 starter datasets
 - [ ] 100+ total industry-specific datasets
 
 ---
@@ -159,5 +164,5 @@ This project is licensed under the [MIT License](LICENSE).
 - 📘 Docs: Coming soon
 
 ---
-## 🧑‍💻 Author
+## 🧠 Author
 > Created with ❤️ by [Ravender Singh Rana](https://github.com/rrana157/) / [BI Learner](https://github.com/bitoollearner/)
