@@ -49,6 +49,7 @@ DataForge currently supports **five dataset templates**:
 
 ### **Question Breakdown by Difficulty:**
 | Difficulty | Count |Jack |
+|------------|-------|-----|
 | Medium     | 137   ||
 | Hard       | 61    ||
 | **Total**  | 310   ||
