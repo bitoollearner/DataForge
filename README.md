@@ -92,14 +92,14 @@ DataForge is well-suited for:
 
 DataForge is built around three core principles:
 
-### Structure over randomness
-Data follows logical schemas and relationships.
+- 1. ### Structure over randomness
+    Data follows logical schemas and relationships.
 
-### Practical realism
-Data resembles what analysts and engineers encounter in real projects.
+- 2. ### Practical realism
+    Data resembles what analysts and engineers encounter in real projects.
 
-### Simplicity
-Minimal setup, predictable outputs, and easy integration into Python workflows.
+- 3. ### Simplicity
+    Minimal setup, predictable outputs, and easy integration into Python workflows.
 
 ---
 
