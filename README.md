@@ -29,7 +29,6 @@ DataForge helps you:
 - [Key Features](#key-features)
 - [Available Datasets](#-available-datasets)
 - [Installation](#-installation)
-- [Quick Start](#-quick-start)
 - [How It Works](#️-how-it-works)
 - [Exporting Data](#-exporting-data)
 - [Limitations & Data Bias](#limitations--data-bias)
@@ -144,16 +143,16 @@ DataForge is intended for **learning, testing, and demonstration purposes only**
 
 ---
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🧠 Future Plans
 
 - [x] 5 starter datasets
 - [ ] 100+ total industry-specific datasets
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
