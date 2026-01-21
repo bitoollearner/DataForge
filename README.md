@@ -155,7 +155,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🌐 Links
 
 - 📦 PyPI: [https://pypi.org/project/DataForge](https://pypi.org/project/DataForge)
-- 🧑‍💻 GitHub: [https://github.com/your-org/DataForge](https://github.com/your-org/DataForge)
+- 🧑‍💻 GitHub: [https://github.com/your-org/DataForge](https://github.com/bitoollearner/DataForge/)
 - 📘 Docs: Coming soon
 
 ---
