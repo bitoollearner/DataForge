@@ -101,15 +101,15 @@ print(df.head())
 
 You’ll get a clean `pandas.DataFrame` ready for export or visualization.
 
-## Use Cases
+---
 
-DataForge is well-suited for:
+## 💾 Exporting Data
 
-- Power BI dashboard development and DAX practice
-- SQL querying, joins, and aggregation exercises
-- Data modeling and star schema practice
-- Data engineering pipeline testing
-- Tutorials, demos, and educational content
+```python
+df.to_csv('sample.csv', index=False)
+df.to_excel('sample.xlsx', index=False)
+df.to_json('sample.json', orient='records')
+```
 
 ---
 
@@ -128,17 +128,8 @@ Synthetic data produced by DataForge must undergo proper validation before use i
 DataForge is intended for **learning, testing, and demonstration purposes**.
 
 
-
-
 ---
 
-## 💾 Exporting Data
-
-```python
-df.to_csv('sample.csv', index=False)
-df.to_excel('sample.xlsx', index=False)
-df.to_json('sample.json', orient='records')
-```
 
 ---
 
