@@ -47,12 +47,11 @@ It provides predefined dataset templates that resemble real-world schemas and ca
 
 DataForge currently supports **five dataset templates**:
 
-### **Question Breakdown by Difficulty:**
-| Difficulty | Count |Jack |
+| S.No | Dataset |Description |
 |------------|-------|-----|
 | Medium     | 137   ||
 | Hard       | 61    ||
-| **Total**  | 310   ||
+| Total  | 310   ||
 
 Additional datasets will be introduced in future releases.
 
