@@ -88,6 +88,11 @@ pip install DataForge
 
 Requires Python 3.7+ or above
 
+
+## ⚙️ How It Works
+
+DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
+
 ```python
 from DataForge import DataForge
 
@@ -100,11 +105,6 @@ print(forge.available_datasets())
 df = forge.generate('ecommerce', 1000)
 print(df.head())
 ```
-
-## ⚙️ How It Works
-
-DataForge comes with a library of **pre-built dataset generators**. Just specify the dataset type and how many records you want:
-
 You’ll get a clean `pandas.DataFrame` ready for export or visualization.
 
 ---
